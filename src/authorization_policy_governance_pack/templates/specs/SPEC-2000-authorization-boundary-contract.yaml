@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:authorization-boundary-contract",
+  "number": 2000,
+  "slug": "authorization-boundary-contract",
+  "title": "Authorization Boundary Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines required separation between authentication facts, token grants, policy input, and resource authorization.",
+  "body": "A conforming repository declares authorization components, resource servers, protected resources, action taxonomy, and enforcement boundaries. It documents which facts enter policy and which component decides resource access.",
+  "decision_date": "2026-06-02",
+  "references": [
+    "https://www.rfc-editor.org/rfc/rfc6749",
+    "https://www.rfc-editor.org/rfc/rfc7662",
+    "https://www.rfc-editor.org/rfc/rfc8693",
+    "https://www.rfc-editor.org/rfc/rfc9068",
+    "https://www.rfc-editor.org/rfc/rfc9700",
+    "https://csrc.nist.gov/pubs/sp/800/162/upd2/final",
+    "https://csrc.nist.gov/pubs/sp/800/207/final",
+    "https://csrc.nist.gov/pubs/sp/800/207/a/final",
+    "https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html",
+    "https://csrc.nist.gov/projects/role-based-access-control/role-engineering-and-rbac-standards",
+    "https://docs.cedarpolicy.com/",
+    "https://www.openpolicyagent.org/docs/policy-language",
+    "https://research.google/pubs/zanzibar-googles-consistent-global-authorization-system/",
+    "https://openfga.dev/docs/modeling/getting-started"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "authorization",
+    "policy",
+    "governance"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": []
+}
