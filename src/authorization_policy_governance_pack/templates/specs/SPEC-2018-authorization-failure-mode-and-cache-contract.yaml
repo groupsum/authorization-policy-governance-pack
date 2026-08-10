@@ -5,7 +5,7 @@
   "number": 2018,
   "slug": "authorization-failure-mode-and-cache-contract",
   "title": "Authorization Failure Mode And Cache Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines PDP unavailability, policy cache, attribute cache, decision cache, revocation, and break-glass requirements.",
   "body": "A conforming repository declares cache TTLs, revocation latency, stale-decision behavior, PDP outage behavior, emergency access controls, audit requirements, and operator evidence for failure and recovery scenarios.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authorization-failure-cache-and-availability-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

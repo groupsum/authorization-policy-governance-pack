@@ -5,7 +5,7 @@
   "number": 2015,
   "slug": "authorization-audit-and-evidence-contract",
   "title": "Authorization Audit And Evidence Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines authorization audit logging and release evidence requirements.",
   "body": "A conforming repository captures subject, actor, resource, action, decision, policy version, attributes used, token or session reference, correlation identifier, and enforcement point for sensitive allow and deny decisions. Evidence must support release and incident review.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authorization-decision-audit-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

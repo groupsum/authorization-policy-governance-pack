@@ -5,7 +5,7 @@
   "number": 2003,
   "slug": "permission-taxonomy-and-naming-contract",
   "title": "Permission Taxonomy And Naming Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines permission naming, action, resource, namespace, wildcard, and lifecycle requirements.",
   "body": "A conforming repository declares atomic permissions, action verbs, resource types, namespace rules, wildcard constraints, lifecycle status, versioning, and deprecation behavior. Permission names must be stable enough for tests, evidence, and release claims.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:permission-action-and-resource-taxonomy-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

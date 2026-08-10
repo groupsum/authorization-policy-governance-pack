@@ -5,7 +5,7 @@
   "number": 1009,
   "slug": "entitlements-are-provisioned-access-facts-not-always-runtime-permissions",
   "title": "Entitlements Are Provisioned Access Facts Not Always Runtime Permissions",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Entitlements are provisioned access facts that may map to roles, permissions, licenses, features, or policy inputs.",
   "body": "Repositories must distinguish provisioned entitlements from application-enforced permissions. Entitlement assignment, removal, review, and synchronization must be traceable to authoritative governance systems before being used as runtime access inputs.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:entitlements-are-inputs-not-runtime-role-decisions"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

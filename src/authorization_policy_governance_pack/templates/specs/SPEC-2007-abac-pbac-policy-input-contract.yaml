@@ -5,7 +5,7 @@
   "number": 2007,
   "slug": "abac-pbac-policy-input-contract",
   "title": "ABAC PBAC Policy Input Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines ABAC and PBAC policy input, freshness, and deny behavior requirements.",
   "body": "A conforming repository declares subject, resource, action, environment, tenant, purpose, risk, and data-classification attributes; identifies authoritative sources; defines freshness expectations; and denies or constrains decisions when required context is missing or stale.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:subject-resource-action-environment-attribute-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

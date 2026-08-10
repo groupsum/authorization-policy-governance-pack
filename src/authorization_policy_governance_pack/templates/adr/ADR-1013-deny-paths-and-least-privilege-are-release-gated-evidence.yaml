@@ -5,7 +5,7 @@
   "number": 1013,
   "slug": "deny-paths-and-least-privilege-are-release-gated-evidence",
   "title": "Deny Paths And Least Privilege Are Release Gated Evidence",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Authorization release evidence must include deny paths, least-privilege behavior, and stale-input scenarios.",
   "body": "Repositories must verify denied requests, insufficient scopes, missing claims, revoked entitlements, stale attributes, relationship removal, tenant isolation, privileged access, and break-glass behavior before making authorization conformance claims.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:deny-paths-and-least-privilege-are-release-gated"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

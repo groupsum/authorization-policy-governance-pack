@@ -5,7 +5,7 @@
   "number": 1005,
   "slug": "attribute-sources-are-authoritative-inputs-not-hidden-logic",
   "title": "Attribute Sources Are Authoritative Inputs Not Hidden Logic",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Policy information sources must be declared as inputs rather than hidden authorization logic.",
   "body": "Repositories must identify sources for identity attributes, group membership, roles, entitlements, relationships, tenant data, device state, risk signals, and resource classifications. Missing, stale, or conflicting attributes must have defined authorization behavior.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:attribute-sources-are-authoritative-policy-inputs"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

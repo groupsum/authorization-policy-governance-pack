@@ -5,7 +5,7 @@
   "number": 2006,
   "slug": "policy-decision-request-response-contract",
   "title": "Policy Decision Request Response Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines authorization decision request and response shape.",
   "body": "A conforming repository defines request fields for subject, resource, action, context, token-derived claims, attributes, relationships, and correlation identifiers. Responses include decision, reason or rule identity when appropriate, obligations, advice, policy version, and audit metadata.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authorization-request-and-response-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

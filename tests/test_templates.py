@@ -99,6 +99,12 @@ class GovernancePackManifestTests(unittest.TestCase):
             self.assertIsInstance(payload["adr_ids"], list)
             self.assertTrue(all(isinstance(item, str) for item in payload["references"]))
 
+    def test_historical_documents_are_all_superseded(self) -> None:
+        for kind in ("adr", "spec"):
+            for row in load_document_manifest(kind):
+                self.assertEqual("superseded", row["status"])
+                self.assertTrue(row["superseded_by"])
+
 
 if __name__ == "__main__":
     unittest.main()

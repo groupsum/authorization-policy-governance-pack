@@ -6,16 +6,24 @@
     "title": "Authorization Boundary Contract",
     "filename": "SPEC-2000-authorization-boundary-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2000-authorization-boundary-contract.yaml",
-    "sha256": "1e73686e9c14492212a2c25d3b58ae1546b42660da26871da3bfaba0f65329b3",
+    "sha256": "d8e242465be20cb41eb3ebae617c2ddaa26081e454b0812910f41bbd4d544513",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authn-authz-boundary-contract",
+      "spc:authorization-request-and-response-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -25,16 +33,23 @@
     "title": "OAuth Scope Consent And Grant Contract",
     "filename": "SPEC-2001-oauth-scope-consent-and-grant-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2001-oauth-scope-consent-and-grant-contract.yaml",
-    "sha256": "639816df627b9a39e2066950335f131de1bd1b25b3de9fe5e27f1a84c48a24b4",
+    "sha256": "08d953d53dfa73f766166b7061ae83c51119436131e3f012a5053b51d8a5e026",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:oauth-scope-consent-and-grant-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -44,16 +59,24 @@
     "title": "OAuth Access Token Validation Contract",
     "filename": "SPEC-2002-oauth-access-token-validation-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2002-oauth-access-token-validation-contract.yaml",
-    "sha256": "5750548262a9dadd2d51140940082fa517dfaf4d03d2d5b28c10d56d028405f6",
+    "sha256": "b36b51da7d2bf61d8af36b00155077044223102f930d2e798ecbfcce2009ace3",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:jwt-access-token-validation-contract",
+      "spc:opaque-token-introspection-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -63,16 +86,23 @@
     "title": "Permission Taxonomy And Naming Contract",
     "filename": "SPEC-2003-permission-taxonomy-and-naming-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2003-permission-taxonomy-and-naming-contract.yaml",
-    "sha256": "784a479f437fee6d5194c3c499e69b550c966a4338eabb7c6124f4dc36b94ad2",
+    "sha256": "a098d7431759bb1ebffdad2f12098d4c4a7da6620c39f765547289ecfdb124ff",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:permission-action-and-resource-taxonomy-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -82,16 +112,24 @@
     "title": "Entitlement Role And Group Contract",
     "filename": "SPEC-2004-entitlement-role-and-group-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2004-entitlement-role-and-group-contract.yaml",
-    "sha256": "c4c42a6135ecbfc7a4d224b45d9c256ae1b9883b534656e5e30d88ef9ce04382",
+    "sha256": "27c5fb30ec7713b314348fd5d1265962f2f5f6225ff52c24a1f59d6ad65a7ee8",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:entitlement-role-and-group-normalization-contract",
+      "spc:entitlement-to-policy-input-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -101,16 +139,23 @@
     "title": "PDP PEP PIP PAP Architecture Contract",
     "filename": "SPEC-2005-pdp-pep-pip-pap-architecture-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2005-pdp-pep-pip-pap-architecture-contract.yaml",
-    "sha256": "764c3accc8f941660db44405404d6e951a08197fca380a27a300e5bf5c20e7c2",
+    "sha256": "720b9e75c6552ab4657580fd4c7be07ef5c0e0ff2563a17d54401a0c8fc9ccc6",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:pdp-pep-pip-pap-architecture-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -120,16 +165,23 @@
     "title": "Policy Decision Request Response Contract",
     "filename": "SPEC-2006-policy-decision-request-response-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2006-policy-decision-request-response-contract.yaml",
-    "sha256": "e301e906afb2f5128196b84be5673f5122d48aa3616224202120ea2aeb339494",
+    "sha256": "cb7522ec62f5f4d7ae83dd9801d152498ed778570ba96b19febcae8ee70df43b",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authorization-request-and-response-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -139,16 +191,23 @@
     "title": "ABAC PBAC Policy Input Contract",
     "filename": "SPEC-2007-abac-pbac-policy-input-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2007-abac-pbac-policy-input-contract.yaml",
-    "sha256": "70272ceb756de3cd9b2ab81be6ba39baf0d0dae45078c2dc4ccf51ed8ee5f066",
+    "sha256": "a65ebaf3bd1e04f803169b5fb16e0cc5ff7b448f0f989983c6431e10ca5b8460",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:subject-resource-action-environment-attribute-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -158,16 +217,23 @@
     "title": "RBAC Role Permission Contract",
     "filename": "SPEC-2008-rbac-role-permission-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2008-rbac-role-permission-contract.yaml",
-    "sha256": "7f7d8210cbdb18629f36cd4a8e564490b232ceac77761f91bd4f947f0c374edf",
+    "sha256": "e93e1feb251880f944eaf0919d6e5bc0cd481b37bc627cba3f51c9f43991f25e",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:rbac-core-role-permission-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -177,16 +243,23 @@
     "title": "ReBAC Relationship Authorization Contract",
     "filename": "SPEC-2009-rebac-relationship-authorization-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2009-rebac-relationship-authorization-contract.yaml",
-    "sha256": "5e872f40473cbfc200df30060234e920cc00d014032d7249c523740599634fb7",
+    "sha256": "a8e272c0194f35fe37fc397a1bc163f854ee4c970b0a1576292606451993fbe5",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:relationship-schema-and-tuple-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -196,16 +269,23 @@
     "title": "Policy As Code Authoring And Review Contract",
     "filename": "SPEC-2010-policy-as-code-authoring-and-review-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2010-policy-as-code-authoring-and-review-contract.yaml",
-    "sha256": "e2d4e3c24be5b470d64918e476da6b5b6776f8ee4edc1eabf7cff158f5a5911d",
+    "sha256": "e6dc1bb1f0b7148fd1fcb2b269193eb99402835d1dcad045b5105d9fdb2404b6",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:policy-authoring-and-review-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -215,16 +295,23 @@
     "title": "Cedar Policy Language Boundary Contract",
     "filename": "SPEC-2011-cedar-policy-language-boundary-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2011-cedar-policy-language-boundary-contract.yaml",
-    "sha256": "3e5fd277ec2754d6c7883e83949aae24010e69f17d51e107e22aabb44931cad0",
+    "sha256": "9e13515cad9eb27bfb3ac90240fb6b88e335b3be4a66c5816f5385c9d7b3c668",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:cedar-policy-language-profile-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -234,16 +321,23 @@
     "title": "OPA Rego Policy Language Boundary Contract",
     "filename": "SPEC-2012-opa-rego-policy-language-boundary-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2012-opa-rego-policy-language-boundary-contract.yaml",
-    "sha256": "70b9c4067ec05a3e711da3a7604200cf908df18f55f090b7e56b2c15fe787423",
+    "sha256": "be468ca865e1083004576d7d3a46b52a7c8c5c94b0fe67ed76d2916610a01179",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:opa-rego-policy-language-profile-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -253,16 +347,23 @@
     "title": "XACML Compatibility And Vocabulary Contract",
     "filename": "SPEC-2013-xacml-compatibility-and-vocabulary-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2013-xacml-compatibility-and-vocabulary-contract.yaml",
-    "sha256": "20d71d40305085294a25197f5d43fc421e27a18d6f5e6f65b1f5003d93c1a8ea",
+    "sha256": "9bbbf21d283457dee5162ef23fc97788819ca0b962fa32ce608ae5d2aace1741",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:xacml-language-compatibility-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -272,16 +373,23 @@
     "title": "Policy Gateway Enforcement Contract",
     "filename": "SPEC-2014-policy-gateway-enforcement-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2014-policy-gateway-enforcement-contract.yaml",
-    "sha256": "db4062c80545e497f4b835268ca438f043dd7798cd745488f33e427342b683ee",
+    "sha256": "99905af61fee1cd0439958b529a23af7d4655d2513a8c804dd57f9adfa595f72",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:policy-gateway-enforcement-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -291,16 +399,23 @@
     "title": "Authorization Audit And Evidence Contract",
     "filename": "SPEC-2015-authorization-audit-and-evidence-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2015-authorization-audit-and-evidence-contract.yaml",
-    "sha256": "9cc394c1f8596ba7a8000fef7a090f7d4ce75e4a1b9046f97d7b76567f3d5995",
+    "sha256": "6dc834132f563ad80dd64ae05723f2f75029cda5c945005af05d94d875a38bbf",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authorization-decision-audit-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -310,16 +425,23 @@
     "title": "Least Privilege And Negative Path Test Contract",
     "filename": "SPEC-2016-least-privilege-and-negative-path-test-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2016-least-privilege-and-negative-path-test-contract.yaml",
-    "sha256": "548b47a2384feb573f12dcc2d3b0886515dcb6845aa73d66480fc3259beda966",
+    "sha256": "f9fce31170397eb986eca1809bfdf4498304f7b0eec36cc63521b0053be0e47d",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:policy-unit-negative-and-regression-test-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -329,16 +451,23 @@
     "title": "Token To Policy Context Mapping Contract",
     "filename": "SPEC-2017-token-to-policy-context-mapping-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2017-token-to-policy-context-mapping-contract.yaml",
-    "sha256": "b775368e7d38b31b7a3e8ff88549e0accc999467e128874f2fb8b45fc7c0ecdf",
+    "sha256": "25bbd94bfa0abacc4fb6d0c4258f0e0dc060cf255a116dba6c56d0ddbdf22d29",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:token-to-policy-context-mapping-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -348,16 +477,23 @@
     "title": "Authorization Failure Mode And Cache Contract",
     "filename": "SPEC-2018-authorization-failure-mode-and-cache-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2018-authorization-failure-mode-and-cache-contract.yaml",
-    "sha256": "a9ac3852878fbad2fdf4aa7ea456c80ed8dcab1e68e4ca2bfa7120f18d09b170",
+    "sha256": "8e165b465ea3d67ff034fa8265ed70a1c7850b9980ba562b36b647b0b12ca788",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authorization-failure-cache-and-availability-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   }
 ]

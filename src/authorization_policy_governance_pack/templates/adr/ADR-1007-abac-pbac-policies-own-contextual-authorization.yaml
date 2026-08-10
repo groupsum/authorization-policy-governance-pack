@@ -5,7 +5,7 @@
   "number": 1007,
   "slug": "abac-pbac-policies-own-contextual-authorization",
   "title": "ABAC PBAC Policies Own Contextual Authorization",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "ABAC and PBAC policies govern contextual authorization using declared attributes and policy rules.",
   "body": "Repositories must use policy rules when access depends on subject, resource, action, environment, tenant, purpose, risk, or data classification. Attribute-based decisions must define attribute authority, freshness, and deny behavior for incomplete context.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:contextual-authorization-is-owned-by-abac-pbac-policy"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

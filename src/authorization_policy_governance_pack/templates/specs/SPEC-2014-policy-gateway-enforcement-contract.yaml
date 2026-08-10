@@ -5,7 +5,7 @@
   "number": 2014,
   "slug": "policy-gateway-enforcement-contract",
   "title": "Policy Gateway Enforcement Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines gateway, sidecar, mesh, middleware, and proxy enforcement requirements.",
   "body": "A conforming repository declares gateway-enforced checks, application-enforced checks, bypass controls, fail-closed behavior, health dependencies, decision correlation, and object-level authorization handoff for every protected route or operation.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:policy-gateway-enforcement-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

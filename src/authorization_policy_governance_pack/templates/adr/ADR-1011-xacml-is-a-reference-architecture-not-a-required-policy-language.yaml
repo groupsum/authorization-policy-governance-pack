@@ -5,7 +5,7 @@
   "number": 1011,
   "slug": "xacml-is-a-reference-architecture-not-a-required-policy-language",
   "title": "XACML Is A Reference Architecture Not A Required Policy Language",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "XACML vocabulary can govern PDP, PEP, PIP, PAP, obligations, and advice without requiring XML policy adoption.",
   "body": "Repositories may use XACML terminology and interoperability concepts as a reference architecture while implementing policies in another engine. Claims of XACML compatibility require explicit request, response, combining, obligation, and advice evidence.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:xacml-is-a-reference-architecture-not-a-required-language"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

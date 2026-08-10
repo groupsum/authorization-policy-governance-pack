@@ -5,7 +5,7 @@
   "number": 1001,
   "slug": "oauth-scopes-are-delegated-grants-not-complete-policy-decisions",
   "title": "OAuth Scopes Are Delegated Grants Not Complete Policy Decisions",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "OAuth scopes express delegated grant breadth and are not complete object-level authorization.",
   "body": "Repositories must distinguish authorization-server grants from runtime resource decisions. Scope checks may be necessary before policy evaluation, but fine-grained permissions, tenant isolation, ownership, relationship, and contextual decisions require explicit authorization logic.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:oauth-scopes-are-delegated-grants-not-application-permissions"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

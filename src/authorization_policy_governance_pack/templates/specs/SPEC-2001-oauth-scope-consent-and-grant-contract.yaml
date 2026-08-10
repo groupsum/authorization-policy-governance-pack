@@ -5,7 +5,7 @@
   "number": 2001,
   "slug": "oauth-scope-consent-and-grant-contract",
   "title": "OAuth Scope Consent And Grant Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines requirements for OAuth scopes, grants, consent, and delegated access.",
   "body": "A conforming repository declares scope names, grant types, clients, consent requirements, refresh-token policy, scope reduction behavior, and resource-server expectations. It documents how scopes map to service capabilities without replacing resource-level policy checks.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:oauth-scope-consent-and-grant-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

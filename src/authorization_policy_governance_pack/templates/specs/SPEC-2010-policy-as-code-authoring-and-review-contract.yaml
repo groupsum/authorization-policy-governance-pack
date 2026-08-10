@@ -5,7 +5,7 @@
   "number": 2010,
   "slug": "policy-as-code-authoring-and-review-contract",
   "title": "Policy As Code Authoring And Review Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines policy authoring, testing, review, publication, rollback, and evidence requirements.",
   "body": "A conforming repository treats policies as versioned artifacts with owners, review gates, tests, publication paths, rollback steps, and decision evidence. Policy changes must be traceable to affected resources, actions, and release claims.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:policy-authoring-and-review-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

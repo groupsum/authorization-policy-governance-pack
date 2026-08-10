@@ -5,7 +5,7 @@
   "number": 1006,
   "slug": "rbac-roles-are-permission-bundles-not-policy-truth",
   "title": "RBAC Roles Are Permission Bundles Not Policy Truth",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Roles are governed permission bundles or policy attributes, not the complete truth of authorization.",
   "body": "Repositories may use roles to simplify assignment and review, but role membership must map to explicit permissions or policy inputs. Privileged roles, inherited roles, role conflicts, and separation-of-duties rules require explicit governance.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:roles-are-permission-bundles-not-policy-truth"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

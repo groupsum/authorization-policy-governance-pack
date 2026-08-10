@@ -6,16 +6,24 @@
     "title": "Authentication Facts Are Policy Inputs Not Authorization Decisions",
     "filename": "ADR-1000-authentication-facts-are-policy-inputs-not-authorization-decisions.yaml",
     "target_path": ".ssot/adr/ADR-1000-authentication-facts-are-policy-inputs-not-authorization-decisions.yaml",
-    "sha256": "33c223a7befe974372d3ec5ce4c0ef034b834378e24ab088f5c8a2553a62aa69",
+    "sha256": "18c406e252a05050e5d73abc00a1a77cc5e61cface6c6e0c0ae5676c7872f14f",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:authentication-and-authorization-are-separate-governance-surfaces",
+      "adr:policy-inputs-use-principal-action-resource-and-context"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:oauth-scopes-are-delegated-grants-not-complete-policy-decisions",
@@ -24,16 +32,23 @@
     "title": "OAuth Scopes Are Delegated Grants Not Complete Policy Decisions",
     "filename": "ADR-1001-oauth-scopes-are-delegated-grants-not-complete-policy-decisions.yaml",
     "target_path": ".ssot/adr/ADR-1001-oauth-scopes-are-delegated-grants-not-complete-policy-decisions.yaml",
-    "sha256": "a63476f03d2c6287cd93e6d57bf9847eb3d8b305fb2a44ccab0ead473a912415",
+    "sha256": "7159733611112e8df70b54b2e293d142c5d8ff5657576185dc64d20c5c8466fe",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:oauth-scopes-are-delegated-grants-not-application-permissions"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:access-token-claims-require-resource-server-validation",
@@ -42,16 +57,23 @@
     "title": "Access Token Claims Require Resource Server Validation",
     "filename": "ADR-1002-access-token-claims-require-resource-server-validation.yaml",
     "target_path": ".ssot/adr/ADR-1002-access-token-claims-require-resource-server-validation.yaml",
-    "sha256": "8ac920487d56b17247527b312bb8eda761b9b06698821b634c24bdf002786282",
+    "sha256": "9abaf09afc64aea959d8c7833cc3f7f9b77563e7d0bac50ff0dab66509f4fbf8",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:resource-servers-own-access-token-validation"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:policy-decisions-use-explicit-pdp-pep-boundaries",
@@ -60,16 +82,23 @@
     "title": "Policy Decisions Use Explicit PDP PEP Boundaries",
     "filename": "ADR-1003-policy-decisions-use-explicit-pdp-pep-boundaries.yaml",
     "target_path": ".ssot/adr/ADR-1003-policy-decisions-use-explicit-pdp-pep-boundaries.yaml",
-    "sha256": "0884b58a1d88f31b74e0be83f794c3d594d68ea20e45c1738b3df6e931e5e3a0",
+    "sha256": "ccf86cab1351aa6519e93ea658cc17c8adae46f1adf3e77dfd3901ecbb0376ef",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:policy-decisions-use-explicit-pdp-pep-pip-pap-boundaries"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:policy-inputs-use-subject-resource-action-and-context",
@@ -78,16 +107,23 @@
     "title": "Policy Inputs Use Subject Resource Action And Context",
     "filename": "ADR-1004-policy-inputs-use-subject-resource-action-and-context.yaml",
     "target_path": ".ssot/adr/ADR-1004-policy-inputs-use-subject-resource-action-and-context.yaml",
-    "sha256": "a3eef5f64abe25c51935691637ca84a0e736fa1aa420591312aacd059510c711",
+    "sha256": "e048b33c8d2e0f2f097efaee9bafe23afb486a1e1c9619fc39999c883d5da6f1",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:policy-inputs-use-principal-action-resource-and-context"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:attribute-sources-are-authoritative-inputs-not-hidden-logic",
@@ -96,16 +132,23 @@
     "title": "Attribute Sources Are Authoritative Inputs Not Hidden Logic",
     "filename": "ADR-1005-attribute-sources-are-authoritative-inputs-not-hidden-logic.yaml",
     "target_path": ".ssot/adr/ADR-1005-attribute-sources-are-authoritative-inputs-not-hidden-logic.yaml",
-    "sha256": "1bf9400728f087d116e18732ef0876843ac1ef77eb6b5ba3049cb625f77bfbdb",
+    "sha256": "4ccc4e60349689a89efae325691b4072f176217cdab6dce874ba705df86ab727",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:attribute-sources-are-authoritative-policy-inputs"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:rbac-roles-are-permission-bundles-not-policy-truth",
@@ -114,16 +157,23 @@
     "title": "RBAC Roles Are Permission Bundles Not Policy Truth",
     "filename": "ADR-1006-rbac-roles-are-permission-bundles-not-policy-truth.yaml",
     "target_path": ".ssot/adr/ADR-1006-rbac-roles-are-permission-bundles-not-policy-truth.yaml",
-    "sha256": "bd197cb5d1e2032fabe43822b5fb25cd47d9fb44488719b430298e25235a698b",
+    "sha256": "5abc456f12d37d7c7f16bedbf911886db1b726fe6531887d1bccde9184a538e6",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:roles-are-permission-bundles-not-policy-truth"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:abac-pbac-policies-own-contextual-authorization",
@@ -132,16 +182,23 @@
     "title": "ABAC PBAC Policies Own Contextual Authorization",
     "filename": "ADR-1007-abac-pbac-policies-own-contextual-authorization.yaml",
     "target_path": ".ssot/adr/ADR-1007-abac-pbac-policies-own-contextual-authorization.yaml",
-    "sha256": "a42c294a1fb1bce39deaeca9867a10e731a47aa3faea70067521a54b6aa98b49",
+    "sha256": "1dee5a4e7ba48561b310cbdc18d36cf873946d59e3219f64a6005d9e46cf41d5",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:contextual-authorization-is-owned-by-abac-pbac-policy"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:rebac-relationships-own-graph-based-resource-authorization",
@@ -150,16 +207,23 @@
     "title": "ReBAC Relationships Own Graph Based Resource Authorization",
     "filename": "ADR-1008-rebac-relationships-own-graph-based-resource-authorization.yaml",
     "target_path": ".ssot/adr/ADR-1008-rebac-relationships-own-graph-based-resource-authorization.yaml",
-    "sha256": "417443b1402968509a63688da40560e1bae8c1e2fda14b9b4009239450081e07",
+    "sha256": "ad5839ba1014dda531aa3b4e3cb962b36a5090890575016d463ff95e55b3f208",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:relationships-own-graph-based-resource-authorization"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:entitlements-are-provisioned-access-facts-not-always-runtime-permissions",
@@ -168,16 +232,23 @@
     "title": "Entitlements Are Provisioned Access Facts Not Always Runtime Permissions",
     "filename": "ADR-1009-entitlements-are-provisioned-access-facts-not-always-runtime-permissions.yaml",
     "target_path": ".ssot/adr/ADR-1009-entitlements-are-provisioned-access-facts-not-always-runtime-permissions.yaml",
-    "sha256": "7aa66edee47538508e03811a2f5efb2352c19736b0e8fe35b8961536f243cf78",
+    "sha256": "9014761d481d673d71780196aa2f4dff3160a89a9b63973685fefde05c40fa45",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:entitlements-are-inputs-not-runtime-role-decisions"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:policy-as-code-engines-must-declare-language-and-evaluation-contract",
@@ -186,16 +257,23 @@
     "title": "Policy As Code Engines Must Declare Language And Evaluation Contract",
     "filename": "ADR-1010-policy-as-code-engines-must-declare-language-and-evaluation-contract.yaml",
     "target_path": ".ssot/adr/ADR-1010-policy-as-code-engines-must-declare-language-and-evaluation-contract.yaml",
-    "sha256": "8e45c250abd812dc046eeb9079f8bb1f43dc60886ed83115b8c00b14f2a78e97",
+    "sha256": "68ce50f383c48c0689128a4352f22691a4c223968f3b77a48d0edfbbb5ee538f",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:policy-engines-declare-language-version-and-evaluation-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:xacml-is-a-reference-architecture-not-a-required-policy-language",
@@ -204,16 +282,23 @@
     "title": "XACML Is A Reference Architecture Not A Required Policy Language",
     "filename": "ADR-1011-xacml-is-a-reference-architecture-not-a-required-policy-language.yaml",
     "target_path": ".ssot/adr/ADR-1011-xacml-is-a-reference-architecture-not-a-required-policy-language.yaml",
-    "sha256": "2e7622a6d333994a388e36f1eb7e433cd65366a5975dfb0f3b3f5defff491543",
+    "sha256": "ba87e9d25eb597797ff30ce9fd4976fb788429b1d5e2507abd56348544333e0d",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:xacml-is-a-reference-architecture-not-a-required-language"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:policy-gateways-are-enforcement-points-not-complete-authorization-systems",
@@ -222,16 +307,23 @@
     "title": "Policy Gateways Are Enforcement Points Not Complete Authorization Systems",
     "filename": "ADR-1012-policy-gateways-are-enforcement-points-not-complete-authorization-systems.yaml",
     "target_path": ".ssot/adr/ADR-1012-policy-gateways-are-enforcement-points-not-complete-authorization-systems.yaml",
-    "sha256": "a4c338ba11261e9659ad710103a669f62f8c44c1418e94a1fb9ea6ea60108975",
+    "sha256": "76ce98ef085d07d040e7090a497504dd75ac96d86e23f214a3cdd30d37fd2f60",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:policy-gateways-are-enforcement-points"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   },
   {
     "id": "adr:deny-paths-and-least-privilege-are-release-gated-evidence",
@@ -240,15 +332,22 @@
     "title": "Deny Paths And Least Privilege Are Release Gated Evidence",
     "filename": "ADR-1013-deny-paths-and-least-privilege-are-release-gated-evidence.yaml",
     "target_path": ".ssot/adr/ADR-1013-deny-paths-and-least-privilege-are-release-gated-evidence.yaml",
-    "sha256": "61f221d809be6a6fb666834141d4a1afcbcdf34717c63344184dcf4b0200108a",
+    "sha256": "b074a0de003c6b0adf606c6b4652445338b8706407fbd59b3b2145a5fc5824a0",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authorization-policy-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": []
+    "superseded_by": [
+      "adr:deny-paths-and-least-privilege-are-release-gated"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ]
   }
 ]

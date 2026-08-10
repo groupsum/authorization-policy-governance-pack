@@ -226,7 +226,7 @@ jobs:
       - build-dist
       - pack-compatibility
       - push-tag
-    if: ${{ inputs.publish_to_pypi }}
+    if: ${{ false }}
     steps:
       - uses: actions/checkout@v5
         with:

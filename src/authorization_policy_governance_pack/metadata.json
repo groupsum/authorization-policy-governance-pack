@@ -7,7 +7,7 @@
     "import_name": "authorization_policy_governance_pack",
     "kind": "governance-pack",
     "title": "Authorization Policy Governance",
-    "description": "Installable SSOT governance pack for authorization policy, OAuth scopes, access-token validation, permissions, entitlements, access-control models, PDP/PEP architecture, policy gateways, and policy-as-code.",
+    "description": "Deprecated historical compatibility package; normative ownership moved to specialist governance packages.",
     "homepage": "https://github.com/groupsum/authorization-policy-governance-pack",
     "repository": "https://github.com/groupsum/authorization-policy-governance-pack"
   },

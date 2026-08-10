@@ -5,7 +5,7 @@
   "number": 2017,
   "slug": "token-to-policy-context-mapping-contract",
   "title": "Token To Policy Context Mapping Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines safe mapping from token claims into policy context.",
   "body": "A conforming repository declares which token claims become policy inputs, which claims are ignored, which claims require independent lookup, how custom claims are validated, and how scope, role, group, and entitlement claims are mapped without becoming complete authorization decisions.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:token-to-policy-context-mapping-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

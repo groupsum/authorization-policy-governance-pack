@@ -5,7 +5,7 @@
   "number": 2008,
   "slug": "rbac-role-permission-contract",
   "title": "RBAC Role Permission Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines role, permission, inheritance, privileged-role, and separation-of-duties requirements.",
   "body": "A conforming repository declares role definitions, role-to-permission mappings, inheritance, mutually exclusive roles, privileged roles, assignment authority, review cadence, and test evidence for role grant, role removal, and privilege boundary behavior.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:rbac-core-role-permission-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

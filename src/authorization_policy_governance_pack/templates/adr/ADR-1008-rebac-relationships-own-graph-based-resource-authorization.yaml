@@ -5,7 +5,7 @@
   "number": 1008,
   "slug": "rebac-relationships-own-graph-based-resource-authorization",
   "title": "ReBAC Relationships Own Graph Based Resource Authorization",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Relationship-based access governs graph-derived resource authorization.",
   "body": "Repositories must use explicit relationship models when access depends on ownership, membership, parent-child hierarchy, sharing, delegation, or subject-set expansion. Relationship traversal, inheritance, revocation latency, and consistency expectations must be declared.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:relationships-own-graph-based-resource-authorization"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

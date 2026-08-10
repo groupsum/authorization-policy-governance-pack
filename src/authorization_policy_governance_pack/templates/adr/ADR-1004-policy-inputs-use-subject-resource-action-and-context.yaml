@@ -5,7 +5,7 @@
   "number": 1004,
   "slug": "policy-inputs-use-subject-resource-action-and-context",
   "title": "Policy Inputs Use Subject Resource Action And Context",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Authorization decisions are modeled around subject, resource, action, and context inputs.",
   "body": "Policy requests must describe the requesting subject or principal, target resource or object, requested action, and relevant environmental context. Claims, scopes, roles, groups, entitlements, relationships, and risk attributes are inputs to this model, not substitutes for it.",
@@ -27,8 +27,15 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:policy-inputs-use-principal-action-resource-and-context"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",

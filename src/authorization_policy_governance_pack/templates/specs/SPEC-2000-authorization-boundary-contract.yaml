@@ -5,7 +5,7 @@
   "number": 2000,
   "slug": "authorization-boundary-contract",
   "title": "Authorization Boundary Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines required separation between authentication facts, token grants, policy input, and resource authorization.",
   "body": "A conforming repository declares authorization components, resource servers, protected resources, action taxonomy, and enforcement boundaries. It documents which facts enter policy and which component decides resource access.",
@@ -27,8 +27,16 @@
     "https://openfga.dev/docs/modeling/getting-started"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authn-authz-boundary-contract",
+    "spc:authorization-request-and-response-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authorization",
     "policy",
