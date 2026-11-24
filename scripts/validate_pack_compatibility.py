@@ -33,7 +33,7 @@ def _default_wheels() -> list[Path]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Validate a built governance-pack wheel in a clean downstream SSOT repo.")
+    parser = argparse.ArgumentParser(description="Preflight a historical governance-pack wheel against a clean SSOT registry.")
     parser.add_argument("--wheel", nargs="+", type=Path, default=_default_wheels(), help="Built wheel path(s) to install.")
     parser.add_argument("--ssot-registry-version", default="0.2.21", help="Pinned ssot-registry version to validate against.")
     args = parser.parse_args()
@@ -56,7 +56,13 @@ def main() -> None:
         _run([str(python), "-m", "pip", "install", "--upgrade", "pip"])
         _run([str(python), "-m", "pip", "install", f"ssot-registry=={args.ssot_registry_version}", *map(str, wheels)])
         _run([str(python), "-m", "ssot_registry", "init", str(downstream), "--force"])
-        _run([str(python), "-m", "ssot_registry", "pack", "sync", str(downstream), _pack_import_name(), "--all", "--trust", "--yes"])
+        # Successor records live in specialist packs. Validate the historical
+        # inventory without applying it to a registry that lacks those records.
+        registry = downstream / ".ssot" / "registry.json"
+        before = registry.read_bytes()
+        _run([str(python), "-m", "ssot_registry", "pack", "preflight", str(downstream), _pack_import_name(), "--all"])
+        if registry.read_bytes() != before:
+            raise RuntimeError("Historical pack preflight changed the downstream registry")
         _run([str(python), "-m", "ssot_registry", "validate", str(downstream)])
 
 

@@ -48,5 +48,5 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip wheel . --no-deps -w dist
 
-      - name: Run downstream pack sync gate
+      - name: Preflight the historical pack
         run: python scripts/validate_pack_compatibility.py --wheel dist/*.whl
