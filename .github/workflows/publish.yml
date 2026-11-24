@@ -169,7 +169,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run downstream pack sync gate
+      - name: Preflight the historical pack
         run: python scripts/validate_pack_compatibility.py --wheel dist/*.whl
 
   push-tag:
